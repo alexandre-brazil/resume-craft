@@ -16,7 +16,6 @@ export default function DashboardLayout({ children }: DashboardLayoutProps) {
         <div className="w-full mt-auto border-t border-muted px-3 py-4 flex items-center justify-between ">
           <UserDropDown/>
         </div>
-         
       </aside>
       <main className="p-6 flex flex-col w-full h-full overflow-auto">
         {children}
